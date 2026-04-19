@@ -1,0 +1,76 @@
+# Docs Agent Hooks Configuration
+#
+# Define pre/post hooks for each docs-agent operation.
+# Hooks run in order. Each hook can be:
+#   - A terminal command (type: command)
+#   - A git operation (type: git)
+#
+# Hook properties:
+#   name:        Human-readable label
+#   type:        "command" or "git"
+#   run:         The command to execute (for type: command)
+#   action:      The git action (for type: git) — "commit" or "push"
+#   message:     Commit message template (for git hooks). Supports {package} placeholder
+#   enabled:     true/false (default: true)
+#   optional:    true = ask before running, false = run automatically
+#   description: Shown to user when optional hook prompts
+
+hooks:
+  after_import:
+    - name: git-commit
+      type: git
+      action: commit
+      message: "docs: import {package} documentation"
+      enabled: true
+      optional: true
+      description: Auto-commit after importing documentation
+
+    # Example: rebuild MCP server index after import
+    # - name: rebuild-mcp
+    #   type: command
+    #   run: "cd mcp-server && npm run build"
+    #   enabled: false
+    #   optional: true
+    #   description: Rebuild MCP server after importing new docs
+
+  after_update:
+    - name: git-commit
+      type: git
+      action: commit
+      message: "docs: update {package} documentation"
+      enabled: true
+      optional: true
+      description: Auto-commit after updating documentation
+
+  after_remove:
+    - name: git-commit
+      type: git
+      action: commit
+      message: "docs: remove {package} documentation"
+      enabled: true
+      optional: true
+      description: Auto-commit after removing documentation
+
+  # before_import:
+  #   - name: validate-url
+  #     type: command
+  #     run: "echo 'Pre-import validation'"
+  #     enabled: false
+  #     optional: true
+  #     description: Run custom validation before importing
+
+  # before_update:
+  #   - name: check-connectivity
+  #     type: command
+  #     run: "echo 'Checking network'"
+  #     enabled: false
+  #     optional: true
+  #     description: Check network before updating docs
+
+  # before_remove:
+  #   - name: backup
+  #     type: command
+  #     run: "echo 'Backing up docs'"
+  #     enabled: false
+  #     optional: true
+  #     description: Backup docs before removal

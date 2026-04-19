@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-19T22:44:59Z",
+  "lastUpdated": "2026-04-19T23:35:24.509Z",
   "sources": [
     {
       "id": "react-docs",
@@ -277,446 +277,478 @@
       "status": "active"
     },
     {
-      "id": "scala2-book",
-      "language": "Scala",
-      "packageName": "scala",
-      "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/introduction.html",
-      "localPath": "docs/scala",
-      "importedAt": "2026-04-19T22:44:59Z",
-      "lastUpdatedAt": "2026-04-19T22:44:59Z",
-      "description": "Official Scala 2 Book - a quick introduction and overview of the Scala programming language with 54 lessons.",
+      "id": "typescript-docs",
+      "language": "TypeScript",
+      "packageName": "typescript",
+      "sourceUrl": "https://www.typescriptlang.org/docs/handbook/",
+      "localPath": "docs/typescript",
+      "importedAt": "2026-04-19T23:35:24.509Z",
+      "lastUpdatedAt": "2026-04-19T23:35:24.509Z",
+      "description": "Official TypeScript Handbook documentation including basics, types, functions, classes, modules, generics, and reference material.",
       "files": [
         {
-          "name": "introduction.md",
-          "relativePath": "docs/scala/introduction.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/introduction.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "e3001388101901a6dd9766e58708a164237b4f0c10703aee4c26eff563eefb81",
-          "size": 982
+          "name": "handbook-intro.md",
+          "relativePath": "docs/typescript/handbook-intro.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/intro.html",
+          "fetchedAt": "2026-04-19T23:34:50.712Z",
+          "contentHash": "c5396a6f69a780ae2d2a6a9e801f40ba00285221f8048cd8477426823a3946d1",
+          "size": 5578
         },
         {
-          "name": "prelude-taste-of-scala.md",
-          "relativePath": "docs/scala/prelude-taste-of-scala.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/prelude-taste-of-scala.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "40e7a33d452fa8d1e31f233dd573deffbb9657a1aeb3c1cc1b4626d40deb84a1",
-          "size": 15890
+          "name": "typescript-for-new-programmers.md",
+          "relativePath": "docs/typescript/typescript-for-new-programmers.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html",
+          "fetchedAt": "2026-04-19T23:34:50.776Z",
+          "contentHash": "38840c0c2ccef9aeab7c107a44bbe9fba8885239d8d1e660c0d0209b05032349",
+          "size": 5088
         },
         {
-          "name": "preliminaries.md",
-          "relativePath": "docs/scala/preliminaries.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/preliminaries.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "6f158cd916c24ac62f1d07df88e8a336843df53c011046d4d6fb1dcd9a0bab21",
-          "size": 1631
+          "name": "typescript-for-js-programmers.md",
+          "relativePath": "docs/typescript/typescript-for-js-programmers.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
+          "fetchedAt": "2026-04-19T23:34:50.720Z",
+          "contentHash": "60d3cd5487f523038864701d8b4948add698b5f4d3f6dc52a7f30e31ffe96602",
+          "size": 9238
         },
         {
-          "name": "scala-features.md",
-          "relativePath": "docs/scala/scala-features.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/scala-features.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "5eed20d130827fca20361506b1990fd65b6dd736ee4cda8215282bbc1a8f1ea5",
-          "size": 2042
+          "name": "typescript-for-java-csharp-programmers.md",
+          "relativePath": "docs/typescript/typescript-for-java-csharp-programmers.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-oop.html",
+          "fetchedAt": "2026-04-19T23:34:50.734Z",
+          "contentHash": "7b047025ae564318a9f9effef03d8c7a5ee2bb1d0026911e3595b441718e1f5e",
+          "size": 8977
         },
         {
-          "name": "hello-world-1.md",
-          "relativePath": "docs/scala/hello-world-1.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/hello-world-1.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "feae2add04b86d309be7433a71813eba71b9494098d4317e7139218fc8bac06e",
-          "size": 2560
+          "name": "typescript-for-functional-programmers.md",
+          "relativePath": "docs/typescript/typescript-for-functional-programmers.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html",
+          "fetchedAt": "2026-04-19T23:34:50.756Z",
+          "contentHash": "aaef9bd53e8dc337513fc8e083411160dcb88d0bcba0e9ffa76c464c7d1fe6f3",
+          "size": 18213
         },
         {
-          "name": "hello-world-2.md",
-          "relativePath": "docs/scala/hello-world-2.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/hello-world-2.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "fc0784f44a8f09f0232645e43c8874c9f287a7d3da84a2f2cb203852c47f72b0",
-          "size": 2105
+          "name": "the-basics.md",
+          "relativePath": "docs/typescript/the-basics.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/basic-types.html",
+          "fetchedAt": "2026-04-19T23:34:50.858Z",
+          "contentHash": "110391f8f24599a6722a7db4a5b930ae0fead7be1f91317ec0f29391c981983f",
+          "size": 19525
         },
         {
-          "name": "scala-repl.md",
-          "relativePath": "docs/scala/scala-repl.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/scala-repl.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "715d6c25e47bea0c41aa17c3e98c1c6f0f389a90c103f71fefabe68373c8c42a",
-          "size": 2333
+          "name": "everyday-types.md",
+          "relativePath": "docs/typescript/everyday-types.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html",
+          "fetchedAt": "2026-04-19T23:34:50.997Z",
+          "contentHash": "8b38e27acb7c6ad2629de96ff125dd2d67e79fd14507df6718a39ae953aca5da",
+          "size": 30757
         },
         {
-          "name": "two-types-variables.md",
-          "relativePath": "docs/scala/two-types-variables.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/two-types-variables.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "258e8c346f20ea8a5578c77092ee22f5bafd8c9f63f4347f2d661f22a2b24bf0",
-          "size": 3206
+          "name": "narrowing.md",
+          "relativePath": "docs/typescript/narrowing.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html",
+          "fetchedAt": "2026-04-19T23:34:51.086Z",
+          "contentHash": "e8dd79ede07118eb549a61dbc9b4b3c9dffa66efce23e1b0329243402ca8c66a",
+          "size": 23941
         },
         {
-          "name": "type-is-optional.md",
-          "relativePath": "docs/scala/type-is-optional.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/type-is-optional.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "bfa9f0de558c14f4376a9b969afaa1ac80ecaebe31f3dad9599ad213cda2b4fe",
-          "size": 1671
+          "name": "more-on-functions.md",
+          "relativePath": "docs/typescript/more-on-functions.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/functions.html",
+          "fetchedAt": "2026-04-19T23:34:51.068Z",
+          "contentHash": "4fa1d1ee0dca26dd5535fd235b9cb2d155f7e952efea98c3a5523f1dea2ff11f",
+          "size": 32698
         },
         {
-          "name": "built-in-types.md",
-          "relativePath": "docs/scala/built-in-types.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/built-in-types.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "321ff586e4ad532e0bb657702bc693c320f8ab78059d45f559dfab222dd93d72",
-          "size": 3262
+          "name": "object-types.md",
+          "relativePath": "docs/typescript/object-types.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/objects.html",
+          "fetchedAt": "2026-04-19T23:34:51.021Z",
+          "contentHash": "f9958b411bbd0ed5ffc863d56cceded369ff6f5462d4b63cb90eceae6fb2540f",
+          "size": 33766
         },
         {
-          "name": "two-notes-about-strings.md",
-          "relativePath": "docs/scala/two-notes-about-strings.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/two-notes-about-strings.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "44032222cdb9e5fcf4997dbca1ca3d2b51d07ca0079f846f7a8af4bd27d12ccd",
-          "size": 3363
+          "name": "creating-types-from-types.md",
+          "relativePath": "docs/typescript/creating-types-from-types.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/types-from-types.html",
+          "fetchedAt": "2026-04-19T23:34:51.409Z",
+          "contentHash": "5654927b050e2b7a65c6b644aa92173dc0f25e164a69d5ac5443d222383f183d",
+          "size": 1747
         },
         {
-          "name": "command-line-io.md",
-          "relativePath": "docs/scala/command-line-io.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/command-line-io.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "8519f3a7f67a3b916a7dcba00eeac187d444d55c02b487294a7d211a1c15d7ee",
-          "size": 2416
+          "name": "generics.md",
+          "relativePath": "docs/typescript/generics.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/generics.html",
+          "fetchedAt": "2026-04-19T23:34:51.450Z",
+          "contentHash": "8faa93d6dddd64c4f16cf60ce8c2dada22c40dcb99e625efb6c4251a57c99871",
+          "size": 25774
         },
         {
-          "name": "control-structures.md",
-          "relativePath": "docs/scala/control-structures.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/control-structures.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "2b737ebdad69c0a0eb1263e2e071c1d27e3e37b774759617fc3a4f0f8d6a9dcf",
-          "size": 595
+          "name": "keyof-type-operator.md",
+          "relativePath": "docs/typescript/keyof-type-operator.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html",
+          "fetchedAt": "2026-04-19T23:34:51.406Z",
+          "contentHash": "1aa3414e092854ee4a23f7a846d0bdde5dbfa2fe5ccabfa978f005956ae9b568",
+          "size": 1068
         },
         {
-          "name": "if-then-else-construct.md",
-          "relativePath": "docs/scala/if-then-else-construct.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/if-then-else-construct.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "c5a2f03442e3457d5d5593bcabd4d7a20d7d6524290f9e29092044208465db4b",
-          "size": 2172
+          "name": "typeof-type-operator.md",
+          "relativePath": "docs/typescript/typeof-type-operator.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/typeof-types.html",
+          "fetchedAt": "2026-04-19T23:34:51.402Z",
+          "contentHash": "5c6a3ea64e8e3f7806e6d076a092d9118bf22a5840c85652e4710b14e6ef0842",
+          "size": 2170
         },
         {
-          "name": "for-loops.md",
-          "relativePath": "docs/scala/for-loops.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/for-loops.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "991360f781ba2acd15e421d127f9ad1fa8f619fbc3cbfc644540d4207dc0a877",
-          "size": 2647
+          "name": "indexed-access-types.md",
+          "relativePath": "docs/typescript/indexed-access-types.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html",
+          "fetchedAt": "2026-04-19T23:34:51.454Z",
+          "contentHash": "15adbbfe5b3286c4fade00b74c0e748fe4c67ff2c6785b08b32ba0f330b1f1e7",
+          "size": 2073
         },
         {
-          "name": "for-expressions.md",
-          "relativePath": "docs/scala/for-expressions.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/for-expressions.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "a50409c93a42983bd1a1913bd67ef75b8dc6d68c559adb9477495f54224e7cca",
-          "size": 4491
+          "name": "conditional-types.md",
+          "relativePath": "docs/typescript/conditional-types.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html",
+          "fetchedAt": "2026-04-19T23:34:51.675Z",
+          "contentHash": "bec13078006a99912813e0e31029615a68baa2068a580f6b4efa8c3f78a90b05",
+          "size": 9346
         },
         {
-          "name": "match-expressions.md",
-          "relativePath": "docs/scala/match-expressions.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/match-expressions.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "2187bc895cf0dae4fcc2817e7b5e663d65ad26a54a8cdae5b1bf3cf8839a7fd6",
-          "size": 7801
+          "name": "mapped-types.md",
+          "relativePath": "docs/typescript/mapped-types.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html",
+          "fetchedAt": "2026-04-19T23:34:51.760Z",
+          "contentHash": "e5380e9845bbb323e1b1da27c1f9962dc409e4121e90c03cfaccd259a70e2b65",
+          "size": 5734
         },
         {
-          "name": "try-catch-finally.md",
-          "relativePath": "docs/scala/try-catch-finally.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/try-catch-finally.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "e3f52cef7128c170931cb06e860c5321d6201b452dabc6b05afa4e946f599755",
-          "size": 2244
+          "name": "template-literal-types.md",
+          "relativePath": "docs/typescript/template-literal-types.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html",
+          "fetchedAt": "2026-04-19T23:34:51.709Z",
+          "contentHash": "125075092aca78800489595ab1078bb31369d0d727c840a0a17a4f83fa6146b7",
+          "size": 10775
         },
         {
           "name": "classes.md",
-          "relativePath": "docs/scala/classes.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/classes.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "2df8c64cac7c8eb8995ae81db037bf6dd77663c2832fdd10c69ffa39532272c1",
-          "size": 5245
+          "relativePath": "docs/typescript/classes.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/classes.html",
+          "fetchedAt": "2026-04-19T23:34:51.722Z",
+          "contentHash": "14c3348b271d973ed3c538c677dc00d784d3543e698dc823cf1b0413e5ce03e6",
+          "size": 39644
         },
         {
-          "name": "classes-aux-constructors.md",
-          "relativePath": "docs/scala/classes-aux-constructors.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/classes-aux-constructors.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "7a85b2e31277d6745e8b535b9e5e7d6b55be0ac169339745d5b78c88a0ec670d",
-          "size": 2345
+          "name": "modules.md",
+          "relativePath": "docs/typescript/modules.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/modules.html",
+          "fetchedAt": "2026-04-19T23:34:51.704Z",
+          "contentHash": "c0015d83d6fb234112cd4474af7721134eae65cb89838789c15a6c9bffcc371b",
+          "size": 10713
         },
         {
-          "name": "constructors-default-values.md",
-          "relativePath": "docs/scala/constructors-default-values.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/constructors-default-values.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "f9a52f042a0a613fdb8ed141957efe0510624a68716c03a12429bf673e1d18e7",
-          "size": 2517
+          "name": "utility-types.md",
+          "relativePath": "docs/typescript/utility-types.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/utility-types.html",
+          "fetchedAt": "2026-04-19T23:34:52.012Z",
+          "contentHash": "68066a5ff7ea8db8c125720b411c43651c1727b9d3b2f34e7cc18b5b495e58da",
+          "size": 19186
         },
         {
-          "name": "methods-first-look.md",
-          "relativePath": "docs/scala/methods-first-look.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/methods-first-look.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "b42f9d3f7814150515caf0b5b7613f8580486340bb9d27c460042da0ca509adb",
-          "size": 2806
+          "name": "decorators.md",
+          "relativePath": "docs/typescript/decorators.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/decorators.html",
+          "fetchedAt": "2026-04-19T23:34:52.095Z",
+          "contentHash": "9814ee76899a116894db793cbaa6f90dd8ebb9d3548eacfce278086e93d9d601",
+          "size": 19456
         },
         {
-          "name": "enumerations-pizza-class.md",
-          "relativePath": "docs/scala/enumerations-pizza-class.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/enumerations-pizza-class.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "883b0f06b0e87c669f1095470965db039f2636b5c0fe2c5da39f41ebaee6dab1",
-          "size": 5785
+          "name": "declaration-merging.md",
+          "relativePath": "docs/typescript/declaration-merging.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html",
+          "fetchedAt": "2026-04-19T23:34:52.017Z",
+          "contentHash": "c8b19aa2980e1eb5b8c95a6b366263c4175ea1a52cea4cb753b8b575eb8d1655",
+          "size": 10418
         },
         {
-          "name": "traits-intro.md",
-          "relativePath": "docs/scala/traits-intro.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/traits-intro.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "b843e0afc4a963229b6b78789cc125097c92ebdc5e3584410da35879cee7995d",
-          "size": 709
+          "name": "enums.md",
+          "relativePath": "docs/typescript/enums.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/enums.html",
+          "fetchedAt": "2026-04-19T23:34:52.104Z",
+          "contentHash": "4c02f27e161faf966e8a8260899d9c0389405bd4a9b954d9ea8fe962a2271ca0",
+          "size": 10537
         },
         {
-          "name": "traits-interfaces.md",
-          "relativePath": "docs/scala/traits-interfaces.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/traits-interfaces.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "f09fec4483f8a70e4a24390ca2f075a7f9c9e8db3578dfafa95c4adb07806fa2",
-          "size": 3611
+          "name": "iterators-and-generators.md",
+          "relativePath": "docs/typescript/iterators-and-generators.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html",
+          "fetchedAt": "2026-04-19T23:34:51.991Z",
+          "contentHash": "d4fe0eacb5d8c400b9238e1eda8e0a02917cc1e1d5e8d05ef20bc74d629d23c6",
+          "size": 2657
         },
         {
-          "name": "traits-abstract-mixins.md",
-          "relativePath": "docs/scala/traits-abstract-mixins.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/traits-abstract-mixins.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "a49f2fd11ada3fa107a824fe94c2ec7af65129dae978ef5802f1308dae4b606e",
-          "size": 4619
+          "name": "jsx.md",
+          "relativePath": "docs/typescript/jsx.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/jsx.html",
+          "fetchedAt": "2026-04-19T23:34:52.439Z",
+          "contentHash": "eac71c1f4fab3baa80bcc6a7471b8fc332bba7d57b5e5b135708cece63d43d40",
+          "size": 17168
         },
         {
-          "name": "abstract-classes.md",
-          "relativePath": "docs/scala/abstract-classes.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/abstract-classes.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "76efc1016d4d293511758996862095fb603c322afb97ccf0ee7a0991f2476606",
-          "size": 3052
+          "name": "mixins.md",
+          "relativePath": "docs/typescript/mixins.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/mixins.html",
+          "fetchedAt": "2026-04-19T23:34:52.309Z",
+          "contentHash": "b5a68081929184563633893023028736994a0c579bda54c40043dc01ee2d3849",
+          "size": 7594
         },
         {
-          "name": "collections-101.md",
-          "relativePath": "docs/scala/collections-101.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/collections-101.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "2771628a5e0f1c4ba894a0363550b3d4b07f1f322023c24ede70a0d69d2d4748",
-          "size": 1656
+          "name": "namespaces.md",
+          "relativePath": "docs/typescript/namespaces.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/namespaces.html",
+          "fetchedAt": "2026-04-19T23:34:52.444Z",
+          "contentHash": "258b2df72be56b2c74cd71893132af77a0165db2ce62c5e65a344e0261980cdd",
+          "size": 9070
         },
         {
-          "name": "arraybuffer-examples.md",
-          "relativePath": "docs/scala/arraybuffer-examples.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/arraybuffer-examples.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "5576f95714e823c06df866bd09e81ad64872a2f0dc9e4faad5c8041b14277bdd",
-          "size": 3668
+          "name": "namespaces-and-modules.md",
+          "relativePath": "docs/typescript/namespaces-and-modules.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html",
+          "fetchedAt": "2026-04-19T23:34:52.312Z",
+          "contentHash": "80c72a2bce23f09cbae6e36b99858353edbf738a582880d8f08549e658757175",
+          "size": 5519
         },
         {
-          "name": "list-class.md",
-          "relativePath": "docs/scala/list-class.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/list-class.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "ce1b18d2c836ba840efd70d0bd17f98822123b91af8ae87abb1e0f135ff4048b",
-          "size": 3838
+          "name": "symbols.md",
+          "relativePath": "docs/typescript/symbols.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/symbols.html",
+          "fetchedAt": "2026-04-19T23:34:52.305Z",
+          "contentHash": "bc9d12f59c67bd874201350e5714d13bf674c7d6d5df1809d39293083b4c2b43",
+          "size": 4551
         },
         {
-          "name": "vector-class.md",
-          "relativePath": "docs/scala/vector-class.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/vector-class.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "b490977a2965f2ce3a9c75db00650d68a87562b7aeb41563734640ed279b3891",
-          "size": 2261
+          "name": "triple-slash-directives.md",
+          "relativePath": "docs/typescript/triple-slash-directives.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html",
+          "fetchedAt": "2026-04-19T23:34:52.729Z",
+          "contentHash": "19c612c360b90153f67b1b1e3593a1852cead409dda7687bce605d7febdf5ea0",
+          "size": 6493
         },
         {
-          "name": "map-class.md",
-          "relativePath": "docs/scala/map-class.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/map-class.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "9ab1726895931fd305e382d1dd963bc53c70b593a3689fd19e59b6c98d1e26b9",
-          "size": 3801
+          "name": "type-compatibility.md",
+          "relativePath": "docs/typescript/type-compatibility.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/type-compatibility.html",
+          "fetchedAt": "2026-04-19T23:34:52.683Z",
+          "contentHash": "3fb7d8b35cc5ed4c91524cc74b09d4c52643a35c19f4b350bdf213a9047aa88b",
+          "size": 13017
         },
         {
-          "name": "set-class.md",
-          "relativePath": "docs/scala/set-class.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/set-class.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "da6a0ba4d4c0c7ce670ac22a3a6dea516b07db7bbf663256868f3aa842384856",
-          "size": 3076
+          "name": "type-inference.md",
+          "relativePath": "docs/typescript/type-inference.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/type-inference.html",
+          "fetchedAt": "2026-04-19T23:34:52.699Z",
+          "contentHash": "e4139a0be02c058523502bc501e84c4c3def1847367af3609308626df256fa5b",
+          "size": 4618
         },
         {
-          "name": "anonymous-functions.md",
-          "relativePath": "docs/scala/anonymous-functions.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/anonymous-functions.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "5d1d21105ec88d20a8e6917dea253c09756afcc6199175e900b987f2b816392c",
-          "size": 5486
+          "name": "variable-declarations.md",
+          "relativePath": "docs/typescript/variable-declarations.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/variable-declarations.html",
+          "fetchedAt": "2026-04-19T23:34:52.692Z",
+          "contentHash": "4bd5ec486b683777e7901a5c1aa338eaac49ac0cdaff9c4ad099b232cc5d490a",
+          "size": 12889
         },
         {
-          "name": "collections-methods.md",
-          "relativePath": "docs/scala/collections-methods.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/collections-methods.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "7d61d58dc1e8ee77e496614a50b8c29c3b4240efd29d7ba7bdcfafafd35f87d7",
-          "size": 8471
+          "name": "modules-introduction.md",
+          "relativePath": "docs/typescript/modules-introduction.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/modules/introduction.html",
+          "fetchedAt": "2026-04-19T23:34:52.704Z",
+          "contentHash": "b31c7a43d4c900bdc456e7837f1beb8f78c18feb2223368ac0ada249d1e11ad7",
+          "size": 1764
         },
         {
-          "name": "collections-maps.md",
-          "relativePath": "docs/scala/collections-maps.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/collections-maps.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "5c498b3aa031d578d068b29682c4ef3496ef316e4a163f0f96e02ec7b6a2cf50",
-          "size": 2839
+          "name": "modules-theory.md",
+          "relativePath": "docs/typescript/modules-theory.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/modules/theory.html",
+          "fetchedAt": "2026-04-19T23:34:53.006Z",
+          "contentHash": "7beed564f47d204c17e5d41325e2c56ed67bde9159e64e8a1068bd6b50565e9d",
+          "size": 40938
         },
         {
-          "name": "misc.md",
-          "relativePath": "docs/scala/misc.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/misc.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "68285580feb25e5964854ac792af7945602cbf492fe1ab70024454a10f9f89d3",
-          "size": 431
+          "name": "modules-reference.md",
+          "relativePath": "docs/typescript/modules-reference.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/modules/reference.html",
+          "fetchedAt": "2026-04-19T23:34:52.995Z",
+          "contentHash": "943b861a76c12ecad3b8573186cf4d02a1ad72c342f0bf95d1a8814e6c0fcf9d",
+          "size": 53944
         },
         {
-          "name": "tuples.md",
-          "relativePath": "docs/scala/tuples.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/tuples.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "33269d88b4aa49a2bc1407780fb0a2abb71a4f1172b01b68d0f12389de2ee228",
-          "size": 3234
+          "name": "modules-choosing-compiler-options.md",
+          "relativePath": "docs/typescript/modules-choosing-compiler-options.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html",
+          "fetchedAt": "2026-04-19T23:34:53.000Z",
+          "contentHash": "c0630699c22947731b72f822201a0249ecaee99ca6c33091f404e697e3f0d318",
+          "size": 15458
         },
         {
-          "name": "oop-pizza-example.md",
-          "relativePath": "docs/scala/oop-pizza-example.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/oop-pizza-example.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "8f99f0c150d3b9d5b0cfb35d3d86100919f9c3cca45318aa42ab32a9989d26c6",
-          "size": 5622
+          "name": "modules-esm-cjs-interop.md",
+          "relativePath": "docs/typescript/modules-esm-cjs-interop.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/modules/appendices/esm-cjs-interop.html",
+          "fetchedAt": "2026-04-19T23:34:53.010Z",
+          "contentHash": "05e55f1e292794b0eb7c8d3059a22c631c39fad422dd2cc0ce356cc90efb51c1",
+          "size": 26983
         },
         {
-          "name": "sbt-scalatest-intro.md",
-          "relativePath": "docs/scala/sbt-scalatest-intro.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/sbt-scalatest-intro.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "1cf585cc617deb88506a7d5995b7f55bfad64dce00a4576659910bcfdb6cd32d",
-          "size": 643
+          "name": "declaration-files-introduction.md",
+          "relativePath": "docs/typescript/declaration-files-introduction.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html",
+          "fetchedAt": "2026-04-19T23:34:52.945Z",
+          "contentHash": "75b286e1a7bd4bdfff87546e8f4107bb45b52c51c0aafb72028abfb62d2cf6f0",
+          "size": 3412
         },
         {
-          "name": "scala-build-tool-sbt.md",
-          "relativePath": "docs/scala/scala-build-tool-sbt.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/scala-build-tool-sbt.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "5c48fa52686b93999b0e2b63a8517ebe0e6a01c7cad73c8ccc856bc186da57c3",
-          "size": 5733
+          "name": "declaration-files-by-example.md",
+          "relativePath": "docs/typescript/declaration-files-by-example.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-files/by-example.html",
+          "fetchedAt": "2026-04-19T23:34:53.219Z",
+          "contentHash": "f897d82978407c79d32590eba400380c3aff51fc1945be441552fd40f3c69cd0",
+          "size": 4834
         },
         {
-          "name": "sbt-scalatest-tdd.md",
-          "relativePath": "docs/scala/sbt-scalatest-tdd.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/sbt-scalatest-tdd.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "0b82ebd07b624acfa524a61394b829ebe524a2ec4b65215de611505f649697f3",
-          "size": 5034
+          "name": "declaration-files-library-structures.md",
+          "relativePath": "docs/typescript/declaration-files-library-structures.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-files/library-structures.html",
+          "fetchedAt": "2026-04-19T23:34:53.238Z",
+          "contentHash": "9fb2ce655e5250dec5c6fc21b4b64e18762d5081db7cd2d34dbdb2cb82674322",
+          "size": 9679
         },
         {
-          "name": "sbt-scalatest-bdd.md",
-          "relativePath": "docs/scala/sbt-scalatest-bdd.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/sbt-scalatest-bdd.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "3978fe8a5969cf4624a67c17ea617c331ae636dce184463c455e107e7b3745b3",
-          "size": 3591
+          "name": "declaration-files-dos-and-donts.md",
+          "relativePath": "docs/typescript/declaration-files-dos-and-donts.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html",
+          "fetchedAt": "2026-04-19T23:34:53.235Z",
+          "contentHash": "06564213db21e49369ed87ef7cbc0a269a05f414af869384b2791880c8beaa55",
+          "size": 7369
         },
         {
-          "name": "functional-programming.md",
-          "relativePath": "docs/scala/functional-programming.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/functional-programming.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "2fe63a60a4b8c0866f1da4c717d15987a2b7fbb1952d8571982fe97866a87d1e",
-          "size": 1846
+          "name": "declaration-files-deep-dive.md",
+          "relativePath": "docs/typescript/declaration-files-deep-dive.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-files/deep-dive.html",
+          "fetchedAt": "2026-04-19T23:34:53.217Z",
+          "contentHash": "c1d5cb1d7f66b8cb7da2654bdf066bfcccf49a56afc40d7c509ea98a8e95cefb",
+          "size": 7157
         },
         {
-          "name": "pure-functions.md",
-          "relativePath": "docs/scala/pure-functions.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/pure-functions.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "ea97d425dd5ebef3ce266002e4a51c70a3da36601d4eada02dd490657d8a4bd0",
-          "size": 4692
+          "name": "declaration-files-publishing.md",
+          "relativePath": "docs/typescript/declaration-files-publishing.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html",
+          "fetchedAt": "2026-04-19T23:34:53.225Z",
+          "contentHash": "cd47a92598893b262dd00df6bde527cffefe340ef78ec4ac7adb611bb80d87cd",
+          "size": 6399
         },
         {
-          "name": "passing-functions-around.md",
-          "relativePath": "docs/scala/passing-functions-around.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/passing-functions-around.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "92d9d932be4006b7440b41c68639ac9b480dfe4f23ab31e26cd1661943390c1c",
-          "size": 3663
+          "name": "declaration-files-consumption.md",
+          "relativePath": "docs/typescript/declaration-files-consumption.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html",
+          "fetchedAt": "2026-04-19T23:34:53.468Z",
+          "contentHash": "3d422155cdab58c5def6f0932171d7e28edc9adf7d5fc5c177b428e0ce71bfc9",
+          "size": 1753
         },
         {
-          "name": "no-null-values.md",
-          "relativePath": "docs/scala/no-null-values.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/no-null-values.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "3fc8c5a87a27bf7111b92eb09ad05c6a6742870a487bf1dd6677f899d7b3af5c",
-          "size": 10714
+          "name": "declaration-files-dts-from-js.md",
+          "relativePath": "docs/typescript/declaration-files-dts-from-js.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html",
+          "fetchedAt": "2026-04-19T23:34:53.470Z",
+          "contentHash": "eb310b9c93a3bd5ea6cacadbf0e5344d30a2ba4389583fa88cad2700d1933538",
+          "size": 3505
         },
         {
-          "name": "companion-objects.md",
-          "relativePath": "docs/scala/companion-objects.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/companion-objects.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "2aa83605f8db7ccf77339ec9bb5df91e29d353f6f9f69a42ae0100e5bb275fda",
-          "size": 8319
+          "name": "tsconfig-json.md",
+          "relativePath": "docs/typescript/tsconfig-json.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html",
+          "fetchedAt": "2026-04-19T23:34:54.247Z",
+          "contentHash": "ec0dc10e1a840b59355f60d1755215de0541df713863dbe536da92f7e26cc84e",
+          "size": 3597
         },
         {
-          "name": "case-classes.md",
-          "relativePath": "docs/scala/case-classes.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/case-classes.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "5e3e82c31abd55a2b3cd91d9ef3e59653888942dff6834bf1211222353d99835",
-          "size": 6760
+          "name": "compiler-options.md",
+          "relativePath": "docs/typescript/compiler-options.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/compiler-options.html",
+          "fetchedAt": "2026-04-19T23:34:53.464Z",
+          "contentHash": "bfdf5943ccc380f8d8f9406e184a07a317aec0cd462f870fd2e48452d1a10703",
+          "size": 20309
         },
         {
-          "name": "case-objects.md",
-          "relativePath": "docs/scala/case-objects.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/case-objects.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "72fb3f6a3fcfb99d25489e1b445e483920ee6d9fcda2d8ddf70dc67e52336455",
-          "size": 4228
+          "name": "project-references.md",
+          "relativePath": "docs/typescript/project-references.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/project-references.html",
+          "fetchedAt": "2026-04-19T23:34:53.457Z",
+          "contentHash": "504c7978e1b7d6500b457e86972e40b6660ea227d027d4967b9c5b29f20f86f6",
+          "size": 10983
         },
         {
-          "name": "functional-error-handling.md",
-          "relativePath": "docs/scala/functional-error-handling.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/functional-error-handling.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "7e826c0eed4256280072e5e699039cca7f6fb81025ce1602183a401c9ac2e39a",
-          "size": 4009
+          "name": "configuring-watch.md",
+          "relativePath": "docs/typescript/configuring-watch.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/configuring-watch.html",
+          "fetchedAt": "2026-04-19T23:34:54.477Z",
+          "contentHash": "b1b4b3e2f83a0ecdedb3651547f482dd44b915dd30db36bb804ee8b1c51f7d05",
+          "size": 5524
         },
         {
-          "name": "concurrency-signpost.md",
-          "relativePath": "docs/scala/concurrency-signpost.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/concurrency-signpost.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "2d8eccfdbb24cc9a4ab6ab73fbb9118de017cc6518a499532487ebe35cf1dc9e",
-          "size": 401
+          "name": "js-to-ts-intro.md",
+          "relativePath": "docs/typescript/js-to-ts-intro.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html",
+          "fetchedAt": "2026-04-19T23:34:54.513Z",
+          "contentHash": "9608dd6c7fc0426f2b4bfc3d861c365b0e6c430f469662f8364f6526f97bfa72",
+          "size": 2745
         },
         {
-          "name": "futures.md",
-          "relativePath": "docs/scala/futures.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/futures.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "26156d4b9fbcd5bf4a4bb1f535a5737466ee5cf8114b9a635e208968e92b4dd8",
-          "size": 16075
+          "name": "type-checking-js-files.md",
+          "relativePath": "docs/typescript/type-checking-js-files.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html",
+          "fetchedAt": "2026-04-19T23:34:54.539Z",
+          "contentHash": "71220b3dbeb342bb1d7677c68908425410a8bf6ac0ddd1ee79e31e27ca6b503a",
+          "size": 8145
         },
         {
-          "name": "where-next.md",
-          "relativePath": "docs/scala/where-next.md",
-          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/where-next.html",
-          "fetchedAt": "2026-04-19T22:44:30Z",
-          "contentHash": "571148de956e2d00b9ae3f93329e2513f8f304a818e22985443d75fc3dd7fb34",
-          "size": 575
+          "name": "jsdoc-supported-types.md",
+          "relativePath": "docs/typescript/jsdoc-supported-types.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html",
+          "fetchedAt": "2026-04-19T23:34:54.505Z",
+          "contentHash": "37fd375ce32a0e3d9789ed8c6143e637511d01a76371cc28872e1d3bf078939c",
+          "size": 21085
+        },
+        {
+          "name": "migrating-from-javascript.md",
+          "relativePath": "docs/typescript/migrating-from-javascript.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html",
+          "fetchedAt": "2026-04-19T23:34:54.494Z",
+          "contentHash": "028ab2fd1336017fd92cca1c47c9398b7377ba6691802e01ee814fe7905001ad",
+          "size": 16943
+        },
+        {
+          "name": "dom-manipulation.md",
+          "relativePath": "docs/typescript/dom-manipulation.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/dom-manipulation.html",
+          "fetchedAt": "2026-04-19T23:34:54.776Z",
+          "contentHash": "cb59cbe63da5ce8d935757c245e85656c0d602559cd30591b4e506814d145bcf",
+          "size": 10528
+        },
+        {
+          "name": "babel-with-typescript.md",
+          "relativePath": "docs/typescript/babel-with-typescript.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html",
+          "fetchedAt": "2026-04-19T23:34:54.802Z",
+          "contentHash": "103eb5c4ff06b5b2c9bad9104a4fcbcb0a1882ea761a020ec441acf63c1d7000",
+          "size": 2854
+        },
+        {
+          "name": "typescript-tooling-in-5-minutes.md",
+          "relativePath": "docs/typescript/typescript-tooling-in-5-minutes.md",
+          "sourceUrl": "https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html",
+          "fetchedAt": "2026-04-19T23:34:54.786Z",
+          "contentHash": "87cd4575cf4980faf5d6ecafa04bb8aafdff47468f45c1b8cb1e055ffecf286c",
+          "size": 5856
         }
       ],
       "status": "active"
@@ -724,8 +756,8 @@
   ],
   "stats": {
     "totalSources": 3,
-    "totalFiles": 85,
-    "totalSizeBytes": 353133,
+    "totalFiles": 89,
+    "totalSizeBytes": 872129,
     "activeSources": 3
   }
 }
