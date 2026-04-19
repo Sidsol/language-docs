@@ -1,0 +1,19 @@
+# Node.js / TypeScript
+node_modules/
+dist/
+build/
+*.log
+*.tsbuildinfo
+
+# Environment
+.env*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# IDE
+.idea/

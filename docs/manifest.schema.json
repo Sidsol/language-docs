@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Documentation Manifest",
+  "description": "Tracks all imported documentation sources and their files",
+  "type": "object",
+  "required": ["version", "lastUpdated", "sources", "stats"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$",
+      "description": "Schema version"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of last manifest update"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/DocumentationSource"
+      }
+    },
+    "stats": {
+      "$ref": "#/$defs/ManifestStats"
+    }
+  },
+  "$defs": {
+    "DocumentationSource": {
+      "type": "object",
+      "required": [
+        "id", "language", "packageName", "sourceUrl", "localPath",
+        "importedAt", "lastUpdatedAt", "description", "files", "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Unique identifier (lowercase alphanumeric + hyphens)"
+        },
+        "language": {
+          "type": "string",
+          "description": "Human-readable language/framework name"
+        },
+        "packageName": {
+          "type": "string",
+          "description": "Normalized folder name (lowercase, no spaces)"
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "Original documentation root URL"
+        },
+        "localPath": {
+          "type": "string",
+          "description": "Relative path in repo (e.g., docs/react)"
+        },
+        "importedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of first import"
+        },
+        "lastUpdatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of last successful update"
+        },
+        "description": {
+          "type": "string",
+          "description": "One-sentence description of the documentation"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DocumentationFile"
+          }
+        },
+        "status": {
+          "type": "string",
+          "enum": ["active", "archived", "failed"],
+          "description": "Current status of the documentation source"
+        }
+      }
+    },
+    "DocumentationFile": {
+      "type": "object",
+      "required": ["name", "relativePath", "sourceUrl", "fetchedAt", "contentHash", "size"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Filename (e.g., hooks.md)"
+        },
+        "relativePath": {
+          "type": "string",
+          "description": "Repo-relative path (e.g., docs/react/hooks.md)"
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the original page"
+        },
+        "fetchedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When this file was last fetched"
+        },
+        "contentHash": {
+          "type": "string",
+          "description": "SHA256 hash of file content"
+        },
+        "size": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "File size in bytes"
+        }
+      }
+    },
+    "ManifestStats": {
+      "type": "object",
+      "required": ["totalSources", "totalFiles", "totalSizeBytes", "activeSources"],
+      "properties": {
+        "totalSources": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Count of all sources"
+        },
+        "totalFiles": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Count of all files across all sources"
+        },
+        "totalSizeBytes": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total size of all imported files"
+        },
+        "activeSources": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Count of sources with status: active"
+        }
+      }
+    }
+  }
+}

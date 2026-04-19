@@ -1,0 +1,286 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-19T12:00:00Z",
+  "sources": [
+    {
+      "id": "react-docs",
+      "language": "JavaScript/React",
+      "packageName": "react",
+      "sourceUrl": "https://react.dev/reference/react",
+      "localPath": "docs/react",
+      "importedAt": "2026-04-19T00:00:00Z",
+      "lastUpdatedAt": "2026-04-19T00:00:00Z",
+      "description": "Official React API reference documentation including hooks, components, and APIs.",
+      "files": [
+        {
+          "name": "reference-overview.md",
+          "relativePath": "docs/react/reference-overview.md",
+          "sourceUrl": "https://react.dev/reference/react",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "a950461ddbb0b2b8c11b1428e5d09068fd5a5475a371af6d0d175eb5f9988d99",
+          "size": 3721
+        },
+        {
+          "name": "hooks.md",
+          "relativePath": "docs/react/hooks.md",
+          "sourceUrl": "https://react.dev/reference/react/hooks",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "3d33c891184e5b543f1369fad0a96cc661156e8700244613e3d0ae6b34797c44",
+          "size": 6119
+        },
+        {
+          "name": "components.md",
+          "relativePath": "docs/react/components.md",
+          "sourceUrl": "https://react.dev/reference/react/components",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "27a1a1bf056c9eb30d209307d2271fb2a2e5eb08d6756ac6ff5843c206cc7182",
+          "size": 1066
+        },
+        {
+          "name": "apis.md",
+          "relativePath": "docs/react/apis.md",
+          "sourceUrl": "https://react.dev/reference/react/apis",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "5dd00d044d46227df3763faa9598c1dd02625deaa3dfbce4bb6a4b1abb68e9d7",
+          "size": 2027
+        },
+        {
+          "name": "legacy.md",
+          "relativePath": "docs/react/legacy.md",
+          "sourceUrl": "https://react.dev/reference/react/legacy",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "ee8b81172537da0ef31b5fe19124e1fedcf78d00ffb1b8fdfd3e665dfcd61e38",
+          "size": 2576
+        },
+        {
+          "name": "useState.md",
+          "relativePath": "docs/react/useState.md",
+          "sourceUrl": "https://react.dev/reference/react/useState",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "ba52fb8ddea5ce97e873495debdc215527220c213ba159d1de4007663b1c44eb",
+          "size": 11543
+        },
+        {
+          "name": "useEffect.md",
+          "relativePath": "docs/react/useEffect.md",
+          "sourceUrl": "https://react.dev/reference/react/useEffect",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "52beeb0e52590a07de74e9e49bd895a8e3d3bb0501913a704269863c815b75e8",
+          "size": 10846
+        },
+        {
+          "name": "useContext.md",
+          "relativePath": "docs/react/useContext.md",
+          "sourceUrl": "https://react.dev/reference/react/useContext",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "396ccaa1e735d5b72e2cb0e43b6b1f6233a44693e3b0d0bcea9394398b4c16c9",
+          "size": 7909
+        },
+        {
+          "name": "useReducer.md",
+          "relativePath": "docs/react/useReducer.md",
+          "sourceUrl": "https://react.dev/reference/react/useReducer",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "0839f8407d9f69b2d341034d133ba1d1f3af62287bcd167d436c7c850a1656c3",
+          "size": 9370
+        },
+        {
+          "name": "useRef.md",
+          "relativePath": "docs/react/useRef.md",
+          "sourceUrl": "https://react.dev/reference/react/useRef",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "a6b2044e34598339b9476935d81aa31c67a2ad5371bd20c55f2a2501ea6d7ca8",
+          "size": 6580
+        },
+        {
+          "name": "useCallback.md",
+          "relativePath": "docs/react/useCallback.md",
+          "sourceUrl": "https://react.dev/reference/react/useCallback",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "effc469065dcc198e6d04a6981d3eff35d03757b382fd9a3f45063dd814c7bd5",
+          "size": 7178
+        },
+        {
+          "name": "useMemo.md",
+          "relativePath": "docs/react/useMemo.md",
+          "sourceUrl": "https://react.dev/reference/react/useMemo",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "dbcf872cd1e84edb7b737116b66ced02a053b6937e2cc5635a080b8a0d07f3a5",
+          "size": 8130
+        },
+        {
+          "name": "useTransition.md",
+          "relativePath": "docs/react/useTransition.md",
+          "sourceUrl": "https://react.dev/reference/react/useTransition",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "2f9874dbad44c7ffb7e549c574c46f336876452fa1f6ef4d29f29e77185c44f4",
+          "size": 9370
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "csharp-docs",
+      "language": "C#",
+      "packageName": "csharp",
+      "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/",
+      "localPath": "docs/csharp",
+      "importedAt": "2026-04-19T00:00:00Z",
+      "lastUpdatedAt": "2026-04-19T00:00:00Z",
+      "description": "Official C# language reference documentation including keywords, operators, statements, types, and pattern matching.",
+      "files": [
+        {
+          "name": "language-reference.md",
+          "relativePath": "docs/csharp/language-reference.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "702a3cf926ce301562866c1e7b74b08d3d5084fcce23257fbe4c16579d732bbd",
+          "size": 2254
+        },
+        {
+          "name": "keywords.md",
+          "relativePath": "docs/csharp/keywords.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "d7b7da90b05856ffd9a36878bcb47a397f4d5ad79b2a5fbc1134802b8cd2b1ab",
+          "size": 3098
+        },
+        {
+          "name": "operators.md",
+          "relativePath": "docs/csharp/operators.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "4e9265c0a7e94fb9a7609c43e7f1b109ad867b4572ae3c7e889f3609ef4f719e",
+          "size": 4188
+        },
+        {
+          "name": "operators-arithmetic.md",
+          "relativePath": "docs/csharp/operators-arithmetic.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/arithmetic-operators",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "b1c405a492b7563e7e63fad683585268b817693bf0a8e54d77bdba7c92cbafbd",
+          "size": 5280
+        },
+        {
+          "name": "operators-boolean-logical.md",
+          "relativePath": "docs/csharp/operators-boolean-logical.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "1cef3b83d7e0c3924c26157b232446e100f17097fe40454b492eaa2af077f93b",
+          "size": 3466
+        },
+        {
+          "name": "operators-bitwise-and-shift.md",
+          "relativePath": "docs/csharp/operators-bitwise-and-shift.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "684704ec8d4ed706e7cd58bfd94bd099844bf3474e41c3c24d3082448fb9e295",
+          "size": 2990
+        },
+        {
+          "name": "operators-equality.md",
+          "relativePath": "docs/csharp/operators-equality.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/equality-operators",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "93f08c47a799fc4e5b18f036c90f24d1a5cda2af1d65adc42abc852f40a34156",
+          "size": 2307
+        },
+        {
+          "name": "operators-comparison.md",
+          "relativePath": "docs/csharp/operators-comparison.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/comparison-operators",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "50c8e2b02b51bb4fd189a0d864d1e453f0cb2c4e020d9d212c1835ef62e2c99a",
+          "size": 1703
+        },
+        {
+          "name": "operators-lambda-expressions.md",
+          "relativePath": "docs/csharp/operators-lambda-expressions.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "422ad5d7f5085719127986d47b6a8139e81b7104c0f79a09b48aee079d702e69",
+          "size": 3124
+        },
+        {
+          "name": "operators-patterns.md",
+          "relativePath": "docs/csharp/operators-patterns.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "4fad4116f40bc18a600415ee3c67717aeac8881c3cf442eedc397e554fb4b4f8",
+          "size": 4843
+        },
+        {
+          "name": "operators-type-testing-and-cast.md",
+          "relativePath": "docs/csharp/operators-type-testing-and-cast.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/type-testing-and-cast",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "da90198373cb22f43e17e119d973aaacbeda0c09c76b3b5e9404e32410b73587",
+          "size": 3003
+        },
+        {
+          "name": "statements-selection.md",
+          "relativePath": "docs/csharp/statements-selection.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "9348e28b1eb6e22686aaff39dd2486e1be45fe3040eb1547ef0a0dcc9ef0097c",
+          "size": 2718
+        },
+        {
+          "name": "statements-iteration.md",
+          "relativePath": "docs/csharp/statements-iteration.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "7aee3dd7369d45c7e09023d195b6590b27a8919d1eb28a54fedbd4f13f8a0ca6",
+          "size": 2256
+        },
+        {
+          "name": "statements-jump.md",
+          "relativePath": "docs/csharp/statements-jump.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "8a85c126ca316582dc307f26dd49222b788fd1db245e8f698bab0f514eed474b",
+          "size": 2879
+        },
+        {
+          "name": "statements-exception-handling.md",
+          "relativePath": "docs/csharp/statements-exception-handling.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/exception-handling-statements",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "77bfaafbd41a24603a83daf8645a5be9b60449dcbb9e17291a7ebcb97c9d584d",
+          "size": 3426
+        },
+        {
+          "name": "built-in-types.md",
+          "relativePath": "docs/csharp/built-in-types.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "be581e3584a7a4fa66439fcfd5cc36439dbf7ef002e2405fb548533f7cc10146",
+          "size": 1842
+        },
+        {
+          "name": "integral-numeric-types.md",
+          "relativePath": "docs/csharp/integral-numeric-types.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "809f35a17cd9de21ad5a3f5bee268676dc9a8948778c0324f3da42989737a13f",
+          "size": 2476
+        },
+        {
+          "name": "floating-point-numeric-types.md",
+          "relativePath": "docs/csharp/floating-point-numeric-types.md",
+          "sourceUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types",
+          "fetchedAt": "2026-04-19T00:00:00Z",
+          "contentHash": "fea1be67d2dacd9af242694bb5490c4f90fb699c3bfd09b18ef0d706da01cb92",
+          "size": 2079
+        }
+      ],
+      "status": "active"
+    }
+  ],
+  "stats": {
+    "totalSources": 2,
+    "totalFiles": 31,
+    "totalSizeBytes": 140367,
+    "activeSources": 2
+  }
+}
