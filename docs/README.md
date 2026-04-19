@@ -1,10 +1,12 @@
 # Documentation Index
 
-Imported documentation for languages and packages.
+All imported documentation packages.
 
 | Package | Language | Files | Last Updated | Source |
-|---------|----------|-------|--------------|--------|
-| [react](react/) | JavaScript/React | 13 | 2026-04-19 | [react.dev](https://react.dev/reference/react) |
-| [csharp](csharp/) | C# | 18 | 2026-04-19 | [learn.microsoft.com](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/) |
+|---------|----------|-------|-------------|--------|
+| [react](./react/README.md) | JavaScript/React | 13 | 2026-04-19 | [Link](https://react.dev/reference/react) |
+| [csharp](./csharp/README.md) | C# | 18 | 2026-04-19 | [Link](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/) |
+| [scala](./scala/README.md) | Scala | 54 | 2026-04-19 | [Link](https://docs.scala-lang.org/overviews/scala-book/introduction.html) |
 
-*2 packages | 31 total files*
+---
+**Total**: 3 sources | 85 files | 3 active

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-19T12:00:00Z",
+  "lastUpdated": "2026-04-19T22:44:59Z",
   "sources": [
     {
       "id": "react-docs",
@@ -275,12 +275,457 @@
         }
       ],
       "status": "active"
+    },
+    {
+      "id": "scala2-book",
+      "language": "Scala",
+      "packageName": "scala",
+      "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/introduction.html",
+      "localPath": "docs/scala",
+      "importedAt": "2026-04-19T22:44:59Z",
+      "lastUpdatedAt": "2026-04-19T22:44:59Z",
+      "description": "Official Scala 2 Book - a quick introduction and overview of the Scala programming language with 54 lessons.",
+      "files": [
+        {
+          "name": "introduction.md",
+          "relativePath": "docs/scala/introduction.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/introduction.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "e3001388101901a6dd9766e58708a164237b4f0c10703aee4c26eff563eefb81",
+          "size": 982
+        },
+        {
+          "name": "prelude-taste-of-scala.md",
+          "relativePath": "docs/scala/prelude-taste-of-scala.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/prelude-taste-of-scala.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "40e7a33d452fa8d1e31f233dd573deffbb9657a1aeb3c1cc1b4626d40deb84a1",
+          "size": 15890
+        },
+        {
+          "name": "preliminaries.md",
+          "relativePath": "docs/scala/preliminaries.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/preliminaries.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "6f158cd916c24ac62f1d07df88e8a336843df53c011046d4d6fb1dcd9a0bab21",
+          "size": 1631
+        },
+        {
+          "name": "scala-features.md",
+          "relativePath": "docs/scala/scala-features.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/scala-features.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "5eed20d130827fca20361506b1990fd65b6dd736ee4cda8215282bbc1a8f1ea5",
+          "size": 2042
+        },
+        {
+          "name": "hello-world-1.md",
+          "relativePath": "docs/scala/hello-world-1.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/hello-world-1.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "feae2add04b86d309be7433a71813eba71b9494098d4317e7139218fc8bac06e",
+          "size": 2560
+        },
+        {
+          "name": "hello-world-2.md",
+          "relativePath": "docs/scala/hello-world-2.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/hello-world-2.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "fc0784f44a8f09f0232645e43c8874c9f287a7d3da84a2f2cb203852c47f72b0",
+          "size": 2105
+        },
+        {
+          "name": "scala-repl.md",
+          "relativePath": "docs/scala/scala-repl.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/scala-repl.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "715d6c25e47bea0c41aa17c3e98c1c6f0f389a90c103f71fefabe68373c8c42a",
+          "size": 2333
+        },
+        {
+          "name": "two-types-variables.md",
+          "relativePath": "docs/scala/two-types-variables.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/two-types-variables.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "258e8c346f20ea8a5578c77092ee22f5bafd8c9f63f4347f2d661f22a2b24bf0",
+          "size": 3206
+        },
+        {
+          "name": "type-is-optional.md",
+          "relativePath": "docs/scala/type-is-optional.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/type-is-optional.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "bfa9f0de558c14f4376a9b969afaa1ac80ecaebe31f3dad9599ad213cda2b4fe",
+          "size": 1671
+        },
+        {
+          "name": "built-in-types.md",
+          "relativePath": "docs/scala/built-in-types.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/built-in-types.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "321ff586e4ad532e0bb657702bc693c320f8ab78059d45f559dfab222dd93d72",
+          "size": 3262
+        },
+        {
+          "name": "two-notes-about-strings.md",
+          "relativePath": "docs/scala/two-notes-about-strings.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/two-notes-about-strings.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "44032222cdb9e5fcf4997dbca1ca3d2b51d07ca0079f846f7a8af4bd27d12ccd",
+          "size": 3363
+        },
+        {
+          "name": "command-line-io.md",
+          "relativePath": "docs/scala/command-line-io.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/command-line-io.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "8519f3a7f67a3b916a7dcba00eeac187d444d55c02b487294a7d211a1c15d7ee",
+          "size": 2416
+        },
+        {
+          "name": "control-structures.md",
+          "relativePath": "docs/scala/control-structures.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/control-structures.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "2b737ebdad69c0a0eb1263e2e071c1d27e3e37b774759617fc3a4f0f8d6a9dcf",
+          "size": 595
+        },
+        {
+          "name": "if-then-else-construct.md",
+          "relativePath": "docs/scala/if-then-else-construct.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/if-then-else-construct.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "c5a2f03442e3457d5d5593bcabd4d7a20d7d6524290f9e29092044208465db4b",
+          "size": 2172
+        },
+        {
+          "name": "for-loops.md",
+          "relativePath": "docs/scala/for-loops.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/for-loops.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "991360f781ba2acd15e421d127f9ad1fa8f619fbc3cbfc644540d4207dc0a877",
+          "size": 2647
+        },
+        {
+          "name": "for-expressions.md",
+          "relativePath": "docs/scala/for-expressions.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/for-expressions.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "a50409c93a42983bd1a1913bd67ef75b8dc6d68c559adb9477495f54224e7cca",
+          "size": 4491
+        },
+        {
+          "name": "match-expressions.md",
+          "relativePath": "docs/scala/match-expressions.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/match-expressions.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "2187bc895cf0dae4fcc2817e7b5e663d65ad26a54a8cdae5b1bf3cf8839a7fd6",
+          "size": 7801
+        },
+        {
+          "name": "try-catch-finally.md",
+          "relativePath": "docs/scala/try-catch-finally.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/try-catch-finally.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "e3f52cef7128c170931cb06e860c5321d6201b452dabc6b05afa4e946f599755",
+          "size": 2244
+        },
+        {
+          "name": "classes.md",
+          "relativePath": "docs/scala/classes.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/classes.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "2df8c64cac7c8eb8995ae81db037bf6dd77663c2832fdd10c69ffa39532272c1",
+          "size": 5245
+        },
+        {
+          "name": "classes-aux-constructors.md",
+          "relativePath": "docs/scala/classes-aux-constructors.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/classes-aux-constructors.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "7a85b2e31277d6745e8b535b9e5e7d6b55be0ac169339745d5b78c88a0ec670d",
+          "size": 2345
+        },
+        {
+          "name": "constructors-default-values.md",
+          "relativePath": "docs/scala/constructors-default-values.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/constructors-default-values.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "f9a52f042a0a613fdb8ed141957efe0510624a68716c03a12429bf673e1d18e7",
+          "size": 2517
+        },
+        {
+          "name": "methods-first-look.md",
+          "relativePath": "docs/scala/methods-first-look.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/methods-first-look.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "b42f9d3f7814150515caf0b5b7613f8580486340bb9d27c460042da0ca509adb",
+          "size": 2806
+        },
+        {
+          "name": "enumerations-pizza-class.md",
+          "relativePath": "docs/scala/enumerations-pizza-class.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/enumerations-pizza-class.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "883b0f06b0e87c669f1095470965db039f2636b5c0fe2c5da39f41ebaee6dab1",
+          "size": 5785
+        },
+        {
+          "name": "traits-intro.md",
+          "relativePath": "docs/scala/traits-intro.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/traits-intro.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "b843e0afc4a963229b6b78789cc125097c92ebdc5e3584410da35879cee7995d",
+          "size": 709
+        },
+        {
+          "name": "traits-interfaces.md",
+          "relativePath": "docs/scala/traits-interfaces.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/traits-interfaces.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "f09fec4483f8a70e4a24390ca2f075a7f9c9e8db3578dfafa95c4adb07806fa2",
+          "size": 3611
+        },
+        {
+          "name": "traits-abstract-mixins.md",
+          "relativePath": "docs/scala/traits-abstract-mixins.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/traits-abstract-mixins.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "a49f2fd11ada3fa107a824fe94c2ec7af65129dae978ef5802f1308dae4b606e",
+          "size": 4619
+        },
+        {
+          "name": "abstract-classes.md",
+          "relativePath": "docs/scala/abstract-classes.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/abstract-classes.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "76efc1016d4d293511758996862095fb603c322afb97ccf0ee7a0991f2476606",
+          "size": 3052
+        },
+        {
+          "name": "collections-101.md",
+          "relativePath": "docs/scala/collections-101.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/collections-101.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "2771628a5e0f1c4ba894a0363550b3d4b07f1f322023c24ede70a0d69d2d4748",
+          "size": 1656
+        },
+        {
+          "name": "arraybuffer-examples.md",
+          "relativePath": "docs/scala/arraybuffer-examples.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/arraybuffer-examples.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "5576f95714e823c06df866bd09e81ad64872a2f0dc9e4faad5c8041b14277bdd",
+          "size": 3668
+        },
+        {
+          "name": "list-class.md",
+          "relativePath": "docs/scala/list-class.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/list-class.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "ce1b18d2c836ba840efd70d0bd17f98822123b91af8ae87abb1e0f135ff4048b",
+          "size": 3838
+        },
+        {
+          "name": "vector-class.md",
+          "relativePath": "docs/scala/vector-class.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/vector-class.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "b490977a2965f2ce3a9c75db00650d68a87562b7aeb41563734640ed279b3891",
+          "size": 2261
+        },
+        {
+          "name": "map-class.md",
+          "relativePath": "docs/scala/map-class.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/map-class.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "9ab1726895931fd305e382d1dd963bc53c70b593a3689fd19e59b6c98d1e26b9",
+          "size": 3801
+        },
+        {
+          "name": "set-class.md",
+          "relativePath": "docs/scala/set-class.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/set-class.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "da6a0ba4d4c0c7ce670ac22a3a6dea516b07db7bbf663256868f3aa842384856",
+          "size": 3076
+        },
+        {
+          "name": "anonymous-functions.md",
+          "relativePath": "docs/scala/anonymous-functions.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/anonymous-functions.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "5d1d21105ec88d20a8e6917dea253c09756afcc6199175e900b987f2b816392c",
+          "size": 5486
+        },
+        {
+          "name": "collections-methods.md",
+          "relativePath": "docs/scala/collections-methods.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/collections-methods.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "7d61d58dc1e8ee77e496614a50b8c29c3b4240efd29d7ba7bdcfafafd35f87d7",
+          "size": 8471
+        },
+        {
+          "name": "collections-maps.md",
+          "relativePath": "docs/scala/collections-maps.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/collections-maps.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "5c498b3aa031d578d068b29682c4ef3496ef316e4a163f0f96e02ec7b6a2cf50",
+          "size": 2839
+        },
+        {
+          "name": "misc.md",
+          "relativePath": "docs/scala/misc.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/misc.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "68285580feb25e5964854ac792af7945602cbf492fe1ab70024454a10f9f89d3",
+          "size": 431
+        },
+        {
+          "name": "tuples.md",
+          "relativePath": "docs/scala/tuples.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/tuples.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "33269d88b4aa49a2bc1407780fb0a2abb71a4f1172b01b68d0f12389de2ee228",
+          "size": 3234
+        },
+        {
+          "name": "oop-pizza-example.md",
+          "relativePath": "docs/scala/oop-pizza-example.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/oop-pizza-example.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "8f99f0c150d3b9d5b0cfb35d3d86100919f9c3cca45318aa42ab32a9989d26c6",
+          "size": 5622
+        },
+        {
+          "name": "sbt-scalatest-intro.md",
+          "relativePath": "docs/scala/sbt-scalatest-intro.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/sbt-scalatest-intro.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "1cf585cc617deb88506a7d5995b7f55bfad64dce00a4576659910bcfdb6cd32d",
+          "size": 643
+        },
+        {
+          "name": "scala-build-tool-sbt.md",
+          "relativePath": "docs/scala/scala-build-tool-sbt.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/scala-build-tool-sbt.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "5c48fa52686b93999b0e2b63a8517ebe0e6a01c7cad73c8ccc856bc186da57c3",
+          "size": 5733
+        },
+        {
+          "name": "sbt-scalatest-tdd.md",
+          "relativePath": "docs/scala/sbt-scalatest-tdd.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/sbt-scalatest-tdd.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "0b82ebd07b624acfa524a61394b829ebe524a2ec4b65215de611505f649697f3",
+          "size": 5034
+        },
+        {
+          "name": "sbt-scalatest-bdd.md",
+          "relativePath": "docs/scala/sbt-scalatest-bdd.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/sbt-scalatest-bdd.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "3978fe8a5969cf4624a67c17ea617c331ae636dce184463c455e107e7b3745b3",
+          "size": 3591
+        },
+        {
+          "name": "functional-programming.md",
+          "relativePath": "docs/scala/functional-programming.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/functional-programming.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "2fe63a60a4b8c0866f1da4c717d15987a2b7fbb1952d8571982fe97866a87d1e",
+          "size": 1846
+        },
+        {
+          "name": "pure-functions.md",
+          "relativePath": "docs/scala/pure-functions.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/pure-functions.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "ea97d425dd5ebef3ce266002e4a51c70a3da36601d4eada02dd490657d8a4bd0",
+          "size": 4692
+        },
+        {
+          "name": "passing-functions-around.md",
+          "relativePath": "docs/scala/passing-functions-around.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/passing-functions-around.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "92d9d932be4006b7440b41c68639ac9b480dfe4f23ab31e26cd1661943390c1c",
+          "size": 3663
+        },
+        {
+          "name": "no-null-values.md",
+          "relativePath": "docs/scala/no-null-values.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/no-null-values.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "3fc8c5a87a27bf7111b92eb09ad05c6a6742870a487bf1dd6677f899d7b3af5c",
+          "size": 10714
+        },
+        {
+          "name": "companion-objects.md",
+          "relativePath": "docs/scala/companion-objects.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/companion-objects.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "2aa83605f8db7ccf77339ec9bb5df91e29d353f6f9f69a42ae0100e5bb275fda",
+          "size": 8319
+        },
+        {
+          "name": "case-classes.md",
+          "relativePath": "docs/scala/case-classes.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/case-classes.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "5e3e82c31abd55a2b3cd91d9ef3e59653888942dff6834bf1211222353d99835",
+          "size": 6760
+        },
+        {
+          "name": "case-objects.md",
+          "relativePath": "docs/scala/case-objects.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/case-objects.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "72fb3f6a3fcfb99d25489e1b445e483920ee6d9fcda2d8ddf70dc67e52336455",
+          "size": 4228
+        },
+        {
+          "name": "functional-error-handling.md",
+          "relativePath": "docs/scala/functional-error-handling.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/functional-error-handling.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "7e826c0eed4256280072e5e699039cca7f6fb81025ce1602183a401c9ac2e39a",
+          "size": 4009
+        },
+        {
+          "name": "concurrency-signpost.md",
+          "relativePath": "docs/scala/concurrency-signpost.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/concurrency-signpost.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "2d8eccfdbb24cc9a4ab6ab73fbb9118de017cc6518a499532487ebe35cf1dc9e",
+          "size": 401
+        },
+        {
+          "name": "futures.md",
+          "relativePath": "docs/scala/futures.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/futures.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "26156d4b9fbcd5bf4a4bb1f535a5737466ee5cf8114b9a635e208968e92b4dd8",
+          "size": 16075
+        },
+        {
+          "name": "where-next.md",
+          "relativePath": "docs/scala/where-next.md",
+          "sourceUrl": "https://docs.scala-lang.org/overviews/scala-book/where-next.html",
+          "fetchedAt": "2026-04-19T22:44:30Z",
+          "contentHash": "571148de956e2d00b9ae3f93329e2513f8f304a818e22985443d75fc3dd7fb34",
+          "size": 575
+        }
+      ],
+      "status": "active"
     }
   ],
   "stats": {
-    "totalSources": 2,
-    "totalFiles": 31,
-    "totalSizeBytes": 140367,
-    "activeSources": 2
+    "totalSources": 3,
+    "totalFiles": 85,
+    "totalSizeBytes": 353133,
+    "activeSources": 3
   }
 }
