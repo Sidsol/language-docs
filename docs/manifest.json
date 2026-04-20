@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-19T23:35:24.509Z",
+  "lastUpdated": "2026-04-20T00:00:00Z",
   "sources": [
     {
       "id": "react-docs",
@@ -306,7 +306,7 @@
           "name": "typescript-for-js-programmers.md",
           "relativePath": "docs/typescript/typescript-for-js-programmers.md",
           "sourceUrl": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
-          "fetchedAt": "2026-04-19T23:34:50.720Z",
+          "fetchedAt": "2026-04-19T23:34:50.72Z",
           "contentHash": "60d3cd5487f523038864701d8b4948add698b5f4d3f6dc52a7f30e31ffe96602",
           "size": 9238
         },
@@ -378,7 +378,7 @@
           "name": "generics.md",
           "relativePath": "docs/typescript/generics.md",
           "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/generics.html",
-          "fetchedAt": "2026-04-19T23:34:51.450Z",
+          "fetchedAt": "2026-04-19T23:34:51.45Z",
           "contentHash": "8faa93d6dddd64c4f16cf60ce8c2dada22c40dcb99e625efb6c4251a57c99871",
           "size": 25774
         },
@@ -418,7 +418,7 @@
           "name": "mapped-types.md",
           "relativePath": "docs/typescript/mapped-types.md",
           "sourceUrl": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html",
-          "fetchedAt": "2026-04-19T23:34:51.760Z",
+          "fetchedAt": "2026-04-19T23:34:51.76Z",
           "contentHash": "e5380e9845bbb323e1b1da27c1f9962dc409e4121e90c03cfaccd259a70e2b65",
           "size": 5734
         },
@@ -586,7 +586,7 @@
           "name": "modules-choosing-compiler-options.md",
           "relativePath": "docs/typescript/modules-choosing-compiler-options.md",
           "sourceUrl": "https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html",
-          "fetchedAt": "2026-04-19T23:34:53.000Z",
+          "fetchedAt": "2026-04-19T23:34:53Z",
           "contentHash": "c0630699c22947731b72f822201a0249ecaee99ca6c33091f404e697e3f0d318",
           "size": 15458
         },
@@ -594,7 +594,7 @@
           "name": "modules-esm-cjs-interop.md",
           "relativePath": "docs/typescript/modules-esm-cjs-interop.md",
           "sourceUrl": "https://www.typescriptlang.org/docs/handbook/modules/appendices/esm-cjs-interop.html",
-          "fetchedAt": "2026-04-19T23:34:53.010Z",
+          "fetchedAt": "2026-04-19T23:34:53.01Z",
           "contentHash": "05e55f1e292794b0eb7c8d3059a22c631c39fad422dd2cc0ce356cc90efb51c1",
           "size": 26983
         },
@@ -658,7 +658,7 @@
           "name": "declaration-files-dts-from-js.md",
           "relativePath": "docs/typescript/declaration-files-dts-from-js.md",
           "sourceUrl": "https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html",
-          "fetchedAt": "2026-04-19T23:34:53.470Z",
+          "fetchedAt": "2026-04-19T23:34:53.47Z",
           "contentHash": "eb310b9c93a3bd5ea6cacadbf0e5344d30a2ba4389583fa88cad2700d1933538",
           "size": 3505
         },
@@ -752,6 +752,674 @@
         }
       ],
       "status": "active"
+    },
+    {
+      "importedAt": "2026-04-19T23:59:00Z",
+      "packageName": "python",
+      "description": "Official Python 3.14 documentation including tutorial, language reference, standard library, HOWTOs, FAQs, and glossary.",
+      "localPath": "docs/python",
+      "id": "python-docs",
+      "sourceUrl": "https://docs.python.org/3/",
+      "lastUpdatedAt": "2026-04-19T23:59:00Z",
+      "files": [
+        {
+          "relativePath": "docs/python/faq-design.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5773,
+          "contentHash": "0f0390529f405fec462f3159465c27e8b9ffd0db72dc84388aefcd8bf0b6aced",
+          "name": "faq-design.md",
+          "sourceUrl": "https://docs.python.org/3/faq/design.html"
+        },
+        {
+          "relativePath": "docs/python/faq-extending.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 3792,
+          "contentHash": "29166db82d319e51fb193753f6955d9e2da36b9b7d0465bedbdf1b82269ecf60",
+          "name": "faq-extending.md",
+          "sourceUrl": "https://docs.python.org/3/faq/extending.html"
+        },
+        {
+          "relativePath": "docs/python/faq-general.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 3960,
+          "contentHash": "2e0b93a6c37ae541be68ac1b632574c23acef79a0a08d29ba956e83deb0c4f57",
+          "name": "faq-general.md",
+          "sourceUrl": "https://docs.python.org/3/faq/general.html"
+        },
+        {
+          "relativePath": "docs/python/faq-gui.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 2357,
+          "contentHash": "1599270acf403d5e92ec613a00b9df287e574569c2a214d68e7af49564939d53",
+          "name": "faq-gui.md",
+          "sourceUrl": "https://docs.python.org/3/faq/gui.html"
+        },
+        {
+          "relativePath": "docs/python/faq-library.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 4745,
+          "contentHash": "766a2a006edf4a2a1c762dd68719afef22d7591e4d16eae3e4fd106137eb4ef1",
+          "name": "faq-library.md",
+          "sourceUrl": "https://docs.python.org/3/faq/library.html"
+        },
+        {
+          "relativePath": "docs/python/faq-programming.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5234,
+          "contentHash": "97db3015008eb91730f85ee208be3f2d07206b1413ac640a30c1547044e95237",
+          "name": "faq-programming.md",
+          "sourceUrl": "https://docs.python.org/3/faq/programming.html"
+        },
+        {
+          "relativePath": "docs/python/faq-windows.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 2729,
+          "contentHash": "0b8e40d5c811d8e15b846b0e41b92ed60f6d2cf3a999b0a19051d2c737c27476",
+          "name": "faq-windows.md",
+          "sourceUrl": "https://docs.python.org/3/faq/windows.html"
+        },
+        {
+          "relativePath": "docs/python/glossary.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 12434,
+          "contentHash": "ecd284304ba18fe1ecbbbcf419e4304cf00ff0ef19ca97524fe61d607269fc6a",
+          "name": "glossary.md",
+          "sourceUrl": "https://docs.python.org/3/glossary.html"
+        },
+        {
+          "relativePath": "docs/python/howto-annotations.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 8024,
+          "contentHash": "7632277ac6de4cf9678c2f4a3917c314f3fc389305889c18431d0ff9086d625b",
+          "name": "howto-annotations.md",
+          "sourceUrl": "https://docs.python.org/3/howto/annotations.html"
+        },
+        {
+          "relativePath": "docs/python/howto-argparse.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 6596,
+          "contentHash": "47869f1bbc1dbef064a655ed27b09b6f213b526ad0b370d2956d296b5921cf5e",
+          "name": "howto-argparse.md",
+          "sourceUrl": "https://docs.python.org/3/howto/argparse.html"
+        },
+        {
+          "relativePath": "docs/python/howto-asyncio-overview.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 8177,
+          "contentHash": "54ed04dacbbd0f3c9e9365d216822b39d3a5886cf4634e03523851213995c81d",
+          "name": "howto-asyncio-overview.md",
+          "sourceUrl": "https://docs.python.org/3/howto/a-conceptual-overview-of-asyncio.html"
+        },
+        {
+          "relativePath": "docs/python/howto-descriptors.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 10232,
+          "contentHash": "d371d8fbf21e82ed404cfc3417c3f866a1e9c4e3f611c5675137adf425144897",
+          "name": "howto-descriptors.md",
+          "sourceUrl": "https://docs.python.org/3/howto/descriptor.html"
+        },
+        {
+          "relativePath": "docs/python/howto-enum.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5778,
+          "contentHash": "96edbfa4a670ba6e9acdf5dfd81f0e23544a3b451bb11414e0e282dc3f9e4210",
+          "name": "howto-enum.md",
+          "sourceUrl": "https://docs.python.org/3/howto/enum.html"
+        },
+        {
+          "relativePath": "docs/python/howto-functional.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 8902,
+          "contentHash": "b23498976425542ddb67c5a634dee7c2ba6c47387168e87d622a460068a90ec1",
+          "name": "howto-functional.md",
+          "sourceUrl": "https://docs.python.org/3/howto/functional.html"
+        },
+        {
+          "relativePath": "docs/python/howto-logging-cookbook.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 7629,
+          "contentHash": "f3d1db218124302681ab6a468a9428e663ea1b738a8f978333f00eeba8f2f9df",
+          "name": "howto-logging-cookbook.md",
+          "sourceUrl": "https://docs.python.org/3/howto/logging-cookbook.html"
+        },
+        {
+          "relativePath": "docs/python/howto-logging.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5262,
+          "contentHash": "e9791cc05c3a085119d25d2538d6cf0bdcebc5b643cfcd179ed0365ed3da8d18",
+          "name": "howto-logging.md",
+          "sourceUrl": "https://docs.python.org/3/howto/logging.html"
+        },
+        {
+          "relativePath": "docs/python/howto-regex.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5555,
+          "contentHash": "5291a87ed468b54b1e6a639fa3c2ad2bc9dc2f760ca2e63cc6533ee9721a415c",
+          "name": "howto-regex.md",
+          "sourceUrl": "https://docs.python.org/3/howto/regex.html"
+        },
+        {
+          "relativePath": "docs/python/howto-sockets.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 4887,
+          "contentHash": "6974346f0627be557c150651639a9b5970536378b0f799ba86fb46ac45f9fd20",
+          "name": "howto-sockets.md",
+          "sourceUrl": "https://docs.python.org/3/howto/sockets.html"
+        },
+        {
+          "relativePath": "docs/python/howto-sorting.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5702,
+          "contentHash": "bb6c8f70ccf8d5c18b520b2d874ef72c6f54c3fb0dd20e4644825cd759695bbe",
+          "name": "howto-sorting.md",
+          "sourceUrl": "https://docs.python.org/3/howto/sorting.html"
+        },
+        {
+          "relativePath": "docs/python/howto-unicode.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 4975,
+          "contentHash": "ced79bee8a8dd23d09bfa5229eceff45206a15b96e02a0134b0968c2787d9be9",
+          "name": "howto-unicode.md",
+          "sourceUrl": "https://docs.python.org/3/howto/unicode.html"
+        },
+        {
+          "relativePath": "docs/python/howto-urllib.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 6754,
+          "contentHash": "7d9d4229280373809c4024e93bc686b9ac035f61af9ce17c202e0a1e6aca7580",
+          "name": "howto-urllib.md",
+          "sourceUrl": "https://docs.python.org/3/howto/urllib2.html"
+        },
+        {
+          "relativePath": "docs/python/library-argparse.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 7117,
+          "contentHash": "40ac740d885a03a9787df0477f13f82ece4886da1f86a1d86f1fd2b4fcbe9cd5",
+          "name": "library-argparse.md",
+          "sourceUrl": "https://docs.python.org/3/library/argparse.html"
+        },
+        {
+          "relativePath": "docs/python/library-asyncio.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 2689,
+          "contentHash": "006598846d5f3a74fb69028015dcc51a0c250ae42c355e08e512400793806fb9",
+          "name": "library-asyncio.md",
+          "sourceUrl": "https://docs.python.org/3/library/asyncio.html"
+        },
+        {
+          "relativePath": "docs/python/library-collections.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 45961,
+          "contentHash": "e62073868d84e433f89a4030b3c44ab6fcdb98dac70f45a0ff554173fffd6c72",
+          "name": "library-collections.md",
+          "sourceUrl": "https://docs.python.org/3/library/collections.html"
+        },
+        {
+          "relativePath": "docs/python/library-constants.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 3831,
+          "contentHash": "4a7a8f9c1b8805c9cf4f18cfc74800fd7cbb895c627e3177d2fed089d3c65c69",
+          "name": "library-constants.md",
+          "sourceUrl": "https://docs.python.org/3/library/constants.html"
+        },
+        {
+          "relativePath": "docs/python/library-contextlib.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 6377,
+          "contentHash": "1921d9c3a3ea48c189d71bb69f72be68aac7c76bf0bbb14e4b9900b95fd5ef9a",
+          "name": "library-contextlib.md",
+          "sourceUrl": "https://docs.python.org/3/library/contextlib.html"
+        },
+        {
+          "relativePath": "docs/python/library-csv.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 20840,
+          "contentHash": "5140406bf4f349cbbd80ff91da3933a0b3e6a579fe0a0b963b72f828403804e1",
+          "name": "library-csv.md",
+          "sourceUrl": "https://docs.python.org/3/library/csv.html"
+        },
+        {
+          "relativePath": "docs/python/library-dataclasses.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 6736,
+          "contentHash": "2ef3b742ad628e0135975fb2e5db21a32e4f7cf20b551e5f5e09dbe5cae83ea2",
+          "name": "library-dataclasses.md",
+          "sourceUrl": "https://docs.python.org/3/library/dataclasses.html"
+        },
+        {
+          "relativePath": "docs/python/library-datetime.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 93484,
+          "contentHash": "910d510ccdbf73c33f22d6d51d449bf0675536c03826306a76fde47935373cb4",
+          "name": "library-datetime.md",
+          "sourceUrl": "https://docs.python.org/3/library/datetime.html"
+        },
+        {
+          "relativePath": "docs/python/library-enum.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5348,
+          "contentHash": "de93c46b46b419cc45bfb4487e067ed255a497d4381671d693ddd93c5a5ff012",
+          "name": "library-enum.md",
+          "sourceUrl": "https://docs.python.org/3/library/enum.html"
+        },
+        {
+          "relativePath": "docs/python/library-exceptions.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 36135,
+          "contentHash": "c426a259575dc09e27074f7ff5a5b73909a1e787947d0d03ee9ebb23ed367a34",
+          "name": "library-exceptions.md",
+          "sourceUrl": "https://docs.python.org/3/library/exceptions.html"
+        },
+        {
+          "relativePath": "docs/python/library-functions.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 80232,
+          "contentHash": "d0f2731c4cdaae95a06ab0e33010ed65eb93a3d8e25cfe04c27ca067aa9ea597",
+          "name": "library-functions.md",
+          "sourceUrl": "https://docs.python.org/3/library/functions.html"
+        },
+        {
+          "relativePath": "docs/python/library-functools.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 27575,
+          "contentHash": "d0b7941b198be34dced49ea50dd3edc563f7568f91e63003a495527ccbf65dcf",
+          "name": "library-functools.md",
+          "sourceUrl": "https://docs.python.org/3/library/functools.html"
+        },
+        {
+          "relativePath": "docs/python/library-http-client.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 6898,
+          "contentHash": "f6b71287ae9d08c42ea1172b1f33b68b38247ce4b2cb13c0eba3b51c1f2bec10",
+          "name": "library-http-client.md",
+          "sourceUrl": "https://docs.python.org/3/library/http.client.html"
+        },
+        {
+          "relativePath": "docs/python/library-http.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5070,
+          "contentHash": "12c5488e2f69a65f8d299b24f3569338987423bfa11f43fbe9aa7bee91681df0",
+          "name": "library-http.md",
+          "sourceUrl": "https://docs.python.org/3/library/http.html"
+        },
+        {
+          "relativePath": "docs/python/library-io.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 40472,
+          "contentHash": "8077c516339392165783bda3e4a2b0a2a58469cfaf219b9aa5a9a3e299fe2986",
+          "name": "library-io.md",
+          "sourceUrl": "https://docs.python.org/3/library/io.html"
+        },
+        {
+          "relativePath": "docs/python/library-itertools.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 38541,
+          "contentHash": "f51acfbecfd1d091f626ddf96cfc6b5528fe3375afb2ed3d52b5d15290fffe09",
+          "name": "library-itertools.md",
+          "sourceUrl": "https://docs.python.org/3/library/itertools.html"
+        },
+        {
+          "relativePath": "docs/python/library-json.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 24893,
+          "contentHash": "6dfa5d2045e05050f5ee9a87b9890d21c6f75b57797685f0bf0f3bc326cd3f35",
+          "name": "library-json.md",
+          "sourceUrl": "https://docs.python.org/3/library/json.html"
+        },
+        {
+          "relativePath": "docs/python/library-logging.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 9752,
+          "contentHash": "d606c8fc69ef6e3716c1565d12bccbdc9941f749f0658a292b084aad7aa03150",
+          "name": "library-logging.md",
+          "sourceUrl": "https://docs.python.org/3/library/logging.html"
+        },
+        {
+          "relativePath": "docs/python/library-math.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 23512,
+          "contentHash": "9345b8978d74c234cff0d3ca841b2a8b34c2494cd332c4bf9f1cab27d9784fe4",
+          "name": "library-math.md",
+          "sourceUrl": "https://docs.python.org/3/library/math.html"
+        },
+        {
+          "relativePath": "docs/python/library-multiprocessing.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 10449,
+          "contentHash": "46aeecdb34784ec9b415881f03a0a6d8e09ebae17f9417d752434efd048f1cda",
+          "name": "library-multiprocessing.md",
+          "sourceUrl": "https://docs.python.org/3/library/multiprocessing.html"
+        },
+        {
+          "relativePath": "docs/python/library-os-path.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 19756,
+          "contentHash": "87d768d59481bef2e5e517a714c948ff8fbd307c4719d18b5f54aab5c35ac541",
+          "name": "library-os-path.md",
+          "sourceUrl": "https://docs.python.org/3/library/os.path.html"
+        },
+        {
+          "relativePath": "docs/python/library-os.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 176998,
+          "contentHash": "97228507fbf8380e1339a5fc5b640f2c9d725bcfb808d56e91deedb5de0dd715",
+          "name": "library-os.md",
+          "sourceUrl": "https://docs.python.org/3/library/os.html"
+        },
+        {
+          "relativePath": "docs/python/library-pathlib.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 58888,
+          "contentHash": "64b86759d8c7d484e92984cc4b2bf28d2acbc88dcf1da25e619082f164e60ffb",
+          "name": "library-pathlib.md",
+          "sourceUrl": "https://docs.python.org/3/library/pathlib.html"
+        },
+        {
+          "relativePath": "docs/python/library-random.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5498,
+          "contentHash": "fa55eac03538fc3ea9bbd096f88373b8d1f1383d17c9cfbad066c400533e0633",
+          "name": "library-random.md",
+          "sourceUrl": "https://docs.python.org/3/library/random.html"
+        },
+        {
+          "relativePath": "docs/python/library-re.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 65244,
+          "contentHash": "b00a9b0c53d29583049621b7c71742400e964e66bf78686b679f5ae565cfc725",
+          "name": "library-re.md",
+          "sourceUrl": "https://docs.python.org/3/library/re.html"
+        },
+        {
+          "relativePath": "docs/python/library-socket.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 6679,
+          "contentHash": "45579b5b2e9c0f626cce3a2aa6e2331345c21428fab1860765388fc1e18f7e80",
+          "name": "library-socket.md",
+          "sourceUrl": "https://docs.python.org/3/library/socket.html"
+        },
+        {
+          "relativePath": "docs/python/library-sqlite3.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 72201,
+          "contentHash": "18b04417a81c4bf73edb33a47333466b57b2dbb91c3731d04e7bc19b947caf37",
+          "name": "library-sqlite3.md",
+          "sourceUrl": "https://docs.python.org/3/library/sqlite3.html"
+        },
+        {
+          "relativePath": "docs/python/library-stdtypes.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 183890,
+          "contentHash": "26fd7a5c3ac3a2da049847083a376d5776d03015ad23d0a3dc02fe54aaa5a8bf",
+          "name": "library-stdtypes.md",
+          "sourceUrl": "https://docs.python.org/3/library/stdtypes.html"
+        },
+        {
+          "relativePath": "docs/python/library-string.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 34480,
+          "contentHash": "a6da20bb350596e67351582ca1918fa477041a8100db0ad859f097e39c64abf0",
+          "name": "library-string.md",
+          "sourceUrl": "https://docs.python.org/3/library/string.html"
+        },
+        {
+          "relativePath": "docs/python/library-subprocess.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 9730,
+          "contentHash": "ac7d511447442ff82c3cbe840997f01bd13d94a0bdd60a33f10a8285ce4badfb",
+          "name": "library-subprocess.md",
+          "sourceUrl": "https://docs.python.org/3/library/subprocess.html"
+        },
+        {
+          "relativePath": "docs/python/library-sys.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 6246,
+          "contentHash": "9a29128ab4118d89f80eb2a38ecc920d7e7dac07a89a01c1fe0f739978a3cc3f",
+          "name": "library-sys.md",
+          "sourceUrl": "https://docs.python.org/3/library/sys.html"
+        },
+        {
+          "relativePath": "docs/python/library-threading.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 8663,
+          "contentHash": "b586a672a7205bd5a27c763a904f4f81606fbe1d66531d4ad30dedba29bd070f",
+          "name": "library-threading.md",
+          "sourceUrl": "https://docs.python.org/3/library/threading.html"
+        },
+        {
+          "relativePath": "docs/python/library-typing.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 7184,
+          "contentHash": "ae7a7cf6180967352055428b1f9a4496e17a9fcaa4505274a3f9cb4699172d06",
+          "name": "library-typing.md",
+          "sourceUrl": "https://docs.python.org/3/library/typing.html"
+        },
+        {
+          "relativePath": "docs/python/library-unittest.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 8761,
+          "contentHash": "12a97fec6f40e85f833230da3c2ae40387aa5f10ea85a02521e7ea0bce1060d6",
+          "name": "library-unittest.md",
+          "sourceUrl": "https://docs.python.org/3/library/unittest.html"
+        },
+        {
+          "relativePath": "docs/python/library-urllib-parse.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 6196,
+          "contentHash": "357ed090c8bbfc19f5367117212cc41744b10cc7e97a19729d296f6f80ed546b",
+          "name": "library-urllib-parse.md",
+          "sourceUrl": "https://docs.python.org/3/library/urllib.parse.html"
+        },
+        {
+          "relativePath": "docs/python/library-urllib-request.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 7717,
+          "contentHash": "3ee2425689113421aec27fde734f0c67913aca6070e7497ac06f8a515992d1bc",
+          "name": "library-urllib-request.md",
+          "sourceUrl": "https://docs.python.org/3/library/urllib.request.html"
+        },
+        {
+          "relativePath": "docs/python/reference-compound-statements.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 79046,
+          "contentHash": "c592e388039c796c057413e91c8005699aff825bdaa06ccab37bd7e0cc3eef4a",
+          "name": "reference-compound-statements.md",
+          "sourceUrl": "https://docs.python.org/3/reference/compound_stmts.html"
+        },
+        {
+          "relativePath": "docs/python/reference-datamodel.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 164930,
+          "contentHash": "e6c3b9402a7bb7bcd2e698de9cfb519b9fc8919d7d294938ad2953a3ac1468cf",
+          "name": "reference-datamodel.md",
+          "sourceUrl": "https://docs.python.org/3/reference/datamodel.html"
+        },
+        {
+          "relativePath": "docs/python/reference-execution-model.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 26923,
+          "contentHash": "aa682dba08bd4adbe9bb14a8c7f9f5726bee265623c2943d4174fee2cfe7191a",
+          "name": "reference-execution-model.md",
+          "sourceUrl": "https://docs.python.org/3/reference/executionmodel.html"
+        },
+        {
+          "relativePath": "docs/python/reference-expressions.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 95719,
+          "contentHash": "577f6f34f72c34c85e5a3a5cb569a900a13e990380d3d0691746e059c15cee1d",
+          "name": "reference-expressions.md",
+          "sourceUrl": "https://docs.python.org/3/reference/expressions.html"
+        },
+        {
+          "relativePath": "docs/python/reference-import-system.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 49707,
+          "contentHash": "ce6b0364a39db28d478a63770a163c5f1e0d923f312469ae7470448317f73b46",
+          "name": "reference-import-system.md",
+          "sourceUrl": "https://docs.python.org/3/reference/import.html"
+        },
+        {
+          "relativePath": "docs/python/reference-introduction.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 10720,
+          "contentHash": "352e9679ee2882dc9502afd08cbb10bd5caa40a523fe32aed90530fea5d84325",
+          "name": "reference-introduction.md",
+          "sourceUrl": "https://docs.python.org/3/reference/introduction.html"
+        },
+        {
+          "relativePath": "docs/python/reference-lexical-analysis.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 53144,
+          "contentHash": "a19ce3772ca6cc7360d25bc9a8154589b2cb086da2c3e0cf9c3284a2469824c8",
+          "name": "reference-lexical-analysis.md",
+          "sourceUrl": "https://docs.python.org/3/reference/lexical_analysis.html"
+        },
+        {
+          "relativePath": "docs/python/reference-simple-statements.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 44551,
+          "contentHash": "ba6d83f5703a0926f9c8ec2d42a78c1ad1e5ca32d8885196610549569b1ed058",
+          "name": "reference-simple-statements.md",
+          "sourceUrl": "https://docs.python.org/3/reference/simple_stmts.html"
+        },
+        {
+          "relativePath": "docs/python/reference-toplevel-components.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 4827,
+          "contentHash": "24331a652bdf8e5a53ede4b02718fee7e06d322392a4681340ef47a3910cb128",
+          "name": "reference-toplevel-components.md",
+          "sourceUrl": "https://docs.python.org/3/reference/toplevel_components.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-appendix.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5296,
+          "contentHash": "0484730489105fa04ad87f695d2fca4047b9136a26e53eb0375a306e08438fab",
+          "name": "tutorial-appendix.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/appendix.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-appetite.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 4604,
+          "contentHash": "935f920f485814d9923733f09d7b4efd7b97b67f6e82202a897708833de023c1",
+          "name": "tutorial-appetite.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/appetite.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-classes.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 15745,
+          "contentHash": "5d4bade2213a7965aabffa7bc03dafbcb449f25fe3a0a9cb143f5854059ba04c",
+          "name": "tutorial-classes.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/classes.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-controlflow.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 13040,
+          "contentHash": "28e209283fa38727d2ffeac4cb627c9e2cc955ff2d4debb2d116a9ebd76787b4",
+          "name": "tutorial-controlflow.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/controlflow.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-datastructures.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 14696,
+          "contentHash": "29dc2c701e3fdbe108030784c9458dc5b6dc98e6c44838e0a23de6f3485aec96",
+          "name": "tutorial-datastructures.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/datastructures.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-errors.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 11526,
+          "contentHash": "2f643eb9fe4c0ae450adb4ec76e8fa49e7a790dcbd7efedf465f845080fc7f50",
+          "name": "tutorial-errors.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/errors.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-floatingpoint.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 8512,
+          "contentHash": "fffa770c145dccca2b619e19f73f6f086e7b295bd8514fe269015f030906dea8",
+          "name": "tutorial-floatingpoint.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/floatingpoint.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-inputoutput.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 10552,
+          "contentHash": "bc4a927fb71023122c87de3b3d1b8790e468ba2c538eae4f675e00ad6f63f3e9",
+          "name": "tutorial-inputoutput.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/inputoutput.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-interactive.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 2190,
+          "contentHash": "4d5fd70341087413432bbccf8c2aaa512d8a17cf015c05fd9cd90d8b0cb93640",
+          "name": "tutorial-interactive.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/interactive.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-interpreter.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 5960,
+          "contentHash": "f6ccc4e3a06d6b85ce23606784f3b824feacd32a2d853cedacf852f5e76eb215",
+          "name": "tutorial-interpreter.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/interpreter.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-introduction.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 12643,
+          "contentHash": "484a2ae98fa4522a6abca96f80f930462088529bcfcbc2b24279018032766ce4",
+          "name": "tutorial-introduction.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/introduction.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-modules.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 11808,
+          "contentHash": "e602cb3644b95a06981463cdef12b5cd4d57001035e9364b5bd2a4980abe6a99",
+          "name": "tutorial-modules.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/modules.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-stdlib.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 8108,
+          "contentHash": "13260665eb48907a303945dd34fec69760745a5ced01666fdd0b3bd83767033e",
+          "name": "tutorial-stdlib.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/stdlib.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-stdlib2.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 10827,
+          "contentHash": "5700f6b620b2ccfa55a6df740bae96d8bdf9a7f901592398f9a7ff289f277d9b",
+          "name": "tutorial-stdlib2.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/stdlib2.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-venv.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 6627,
+          "contentHash": "e19b61641d9d7619b99e40e0cd8d7ea19c455107815ed0c1f7566a16ba7a3fcb",
+          "name": "tutorial-venv.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/venv.html"
+        },
+        {
+          "relativePath": "docs/python/tutorial-whatnow.md",
+          "fetchedAt": "2026-04-19T23:59:00Z",
+          "size": 3074,
+          "contentHash": "5cea260d9f1c6b486689825043d5d17a0bc24c01b70e69833e2e805f826d215a",
+          "name": "tutorial-whatnow.md",
+          "sourceUrl": "https://docs.python.org/3/tutorial/whatnow.html"
+        }
+      ],
+      "language": "Python"
     }
   ],
   "stats": {

@@ -8,6 +8,7 @@ All imported documentation packages.
 | [csharp](./csharp/README.md) | C# | 18 | 2026-04-19 | [Link](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/) |
 | [scala](./scala/README.md) | Scala | 54 | 2026-04-19 | [Link](https://docs.scala-lang.org/overviews/scala-book/introduction.html) |
 | [typescript](./typescript/README.md) | TypeScript | 58 | 2026-04-19 | [Link](https://www.typescriptlang.org/docs/handbook/) |
+| [python](./python/README.md) | Python | 82 | 2026-04-19 | [Link](https://docs.python.org/3/) |
 
 ---
-**Total**: 4 sources | 143 files | 4 active
+**Total**: 5 sources | 225 files | 5 active
