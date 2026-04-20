@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "hooks": {
+    "postToolUse": [
+      {
+        "type": "command",
+        "bash": "./.github/hooks/scripts/post-tool-use.sh",
+        "powershell": "./.github/hooks/scripts/post-tool-use.ps1",
+        "cwd": ".",
+        "timeoutSec": 15,
+        "comment": "Track docs/ changes after file creation or editing tools run"
+      }
+    ],
+    "preToolUse": [
+      {
+        "type": "command",
+        "bash": "./.github/hooks/scripts/pre-tool-use.sh",
+        "powershell": "./.github/hooks/scripts/pre-tool-use.ps1",
+        "cwd": ".",
+        "timeoutSec": 10,
+        "comment": "Protect manifest.json from direct deletion and guard docs/ structure"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "type": "command",
+        "bash": "./.github/hooks/scripts/session-end.sh",
+        "powershell": "./.github/hooks/scripts/session-end.ps1",
+        "cwd": ".",
+        "timeoutSec": 30,
+        "comment": "Auto-commit any uncommitted docs/ changes when session ends"
+      }
+    ]
+  }
+}

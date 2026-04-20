@@ -25,6 +25,7 @@ You have four core skills:
 ## Key Files
 
 - **Manifest**: `docs/manifest.json` — tracks all imported documentation sources, files, and metadata
+- **Copilot Hooks**: `.github/hooks/docs-agent.json` — GitHub Copilot hooks for auto-commit, change logging, and manifest protection
 - **Documentation root**: `docs/` — all imported docs are stored here, organized by package name
 - **Skills**: Located in `.github/prompts/skills/import-docs/`, `.github/prompts/skills/update-docs/`, `.github/prompts/skills/inventory-docs/`, and `.github/prompts/skills/remove-docs/`
 
@@ -35,6 +36,18 @@ You have four core skills:
 - Include YAML frontmatter (`sourceUrl`, `fetchedAt`, `language`) in every imported markdown file
 - Report clear, actionable messages for errors (unreachable URLs, empty content, etc.)
 - After any import or update, always update `docs/manifest.json` with current metadata and stats
+
+## Copilot Hooks
+
+This project uses [GitHub Copilot hooks](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/use-hooks) configured in `.github/hooks/docs-agent.json`. These hooks run automatically — no manual invocation needed.
+
+| Hook | Trigger | What It Does |
+|------|---------|--------------|
+| `preToolUse` | Before any tool executes | Blocks direct deletion of `docs/manifest.json` and the `docs/` root directory. Enforces use of the remove-docs skill for proper cleanup. |
+| `postToolUse` | After a successful file tool | Logs documentation file changes (create/edit under `docs/`) to `logs/docs-changes.csv` for audit tracking. |
+| `sessionEnd` | When agent session completes | Auto-commits any uncommitted `docs/` changes with message `"docs: auto-commit documentation changes from agent session"`. |
+
+Scripts are in `.github/hooks/scripts/` (both bash and PowerShell versions).
 
 ## Folder Index Files
 

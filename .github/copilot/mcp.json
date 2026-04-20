@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "language-docs": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["mcp-server/dist/index.js"],
+      "env": {}
+    }
+  }
+}
